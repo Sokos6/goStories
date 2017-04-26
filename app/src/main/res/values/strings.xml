@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Go Stories</string>
+    <string name="key_name">name</string>
 </resources>

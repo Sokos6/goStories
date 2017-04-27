@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 
 import com.inmotionhosting.gostories.R;
+import com.inmotionhosting.gostories.model.Page;
 
 public class StoryActivity extends AppCompatActivity {
 
@@ -22,5 +23,6 @@ public class StoryActivity extends AppCompatActivity {
             name = "Friend";
         }
         Log.d(TAG, name);
+
     }
 }

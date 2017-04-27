@@ -1,9 +1,11 @@
-package com.inmotionhosting.gostories;
+package com.inmotionhosting.gostories.ui;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+
+import com.inmotionhosting.gostories.R;
 
 public class StoryActivity extends AppCompatActivity {
 

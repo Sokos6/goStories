@@ -1,10 +1,10 @@
 package com.inmotionhosting.gostories.model;
 
-import com.inmotionhosting.gostories.R;
-
 /**
  * Created by Will S on 4/27/2017.
  */
+
+import com.inmotionhosting.gostories.R;
 
 public class Story {
 
@@ -13,10 +13,10 @@ public class Story {
     public Story() {
         pages = new Page[7];
 
-       pages[0] = new Page(R.drawable.page0,
-        R.string.page0,
-        new Choice(R.string.page0_choice1, 1),
-        new Choice(R.string.page0_choice2, 2));
+        pages[0] = new Page(R.drawable.page0,
+                R.string.page0,
+                new Choice(R.string.page0_choice1, 1),
+                new Choice(R.string.page0_choice2, 2));
 
         pages[1] = new Page(R.drawable.page1,
                 R.string.page1,
